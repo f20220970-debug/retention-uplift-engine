@@ -1,0 +1,67 @@
+{
+ "customers": 40000,
+ "survival": {
+  "good first order": {
+   "median_weeks_to_churn": "not reached in 26 wk",
+   "retained_at_12wk": 75.2,
+   "retained_at_26wk": 58.7
+  },
+  "bad first order": {
+   "median_weeks_to_churn": 6.6,
+   "retained_at_12wk": 28.3,
+   "retained_at_26wk": 7.3
+  },
+  "Kirana / retail": {
+   "median_weeks_to_churn": "not reached in 26 wk",
+   "retained_at_12wk": 83.6,
+   "retained_at_26wk": 71.5
+  },
+  "D2C seller": {
+   "median_weeks_to_churn": "not reached in 26 wk",
+   "retained_at_12wk": 81.0,
+   "retained_at_26wk": 66.8
+  },
+  "Furniture / home": {
+   "median_weeks_to_churn": "not reached in 26 wk",
+   "retained_at_12wk": 72.1,
+   "retained_at_26wk": 52.0
+  },
+  "Individual mover": {
+   "median_weeks_to_churn": 8.3,
+   "retained_at_12wk": 37.2,
+   "retained_at_26wk": 12.3
+  }
+ },
+ "uplift": {
+  "qini_area": {
+   "uplift_model": 80.9,
+   "churn_risk": 48.3,
+   "random": -1.3
+  },
+  "true_incremental_orders_per_1000_at_30pct": {
+   "uplift_model": 112.6,
+   "churn_risk": 69.0,
+   "random": 62.7
+  },
+  "corr_predicted_vs_true_uplift": 0.526,
+  "share_sleeping_dogs_in_risk_top30": 16.8,
+  "share_sleeping_dogs_in_uplift_top30": 6.7
+ },
+ "channel_allocation": {
+  "budget": 40000,
+  "contacted": 3406,
+  "mix": {
+   "WhatsApp": 3379,
+   "Push": 27
+  },
+  "true_incremental_orders": 451.7,
+  "random_whatsapp_true_incremental": 240.7
+ },
+ "loyalty": {
+  "members": 11888,
+  "true_effect": 0.6,
+  "naive_gap": 2.4,
+  "matched_estimate": 0.71,
+  "matched_pairs": 11858
+ }
+}
